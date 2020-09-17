@@ -6,6 +6,6 @@ class Person
   
   def initialize(person_info)
   person_info = hash 
-  binding.pry
+  hash.each {|key, value| self.send(("#{key}="), value)}
   end
 end
