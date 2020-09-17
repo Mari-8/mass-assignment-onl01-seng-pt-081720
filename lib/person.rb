@@ -4,5 +4,6 @@ class Person
   
   def initialize(hash)
   props = hash 
+  binding.pry
   end
 end
