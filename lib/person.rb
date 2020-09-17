@@ -5,7 +5,6 @@ class Person
   :wrist_size, :glove_size, :pant_length, :pant_width
   
   def initialize(person_info)
-  person_info = hash 
   person_info.each {|key, value| self.send(("#{key}="), value)}
   end
 end
