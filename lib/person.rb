@@ -3,6 +3,6 @@ class Person
   attr_accessor :name
   
   def initialize(hash)
-    binding.pry
+  props = hash 
   end
 end
