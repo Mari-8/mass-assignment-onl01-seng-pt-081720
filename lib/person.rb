@@ -1,3 +1,8 @@
+require 'pry'
 class Person
-  #your code here
+  attr_accessor :name
+  
+  def initialize(hash)
+    binding.pry
+  end
 end
